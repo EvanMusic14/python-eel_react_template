@@ -4,7 +4,8 @@
 
 ## Get Started
 
-- Clone the repository onto your system
+- Clone the repository onto your system or create a new react app using the `npx create-react-app` command
+    - The only file that I have added after `npx create-react-app` is the `index.py`
 - Open a terminal and run `npm install` in the project directory to download the node modules
 
 - If you do not have python installed, install python
