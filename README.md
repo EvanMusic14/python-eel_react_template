@@ -6,13 +6,14 @@
 
 - Clone the repository onto your system or create a new react app using the `npx create-react-app` command
     - The only file that I have added after `npx create-react-app` is the `index.py`
+    - Also added `<script type="text/javascript" src="/eel.js"></script>` to index.html inside `/public`
 - Open a terminal and run `npm install` in the project directory to download the node modules
 
 - If you do not have python installed, install python
     - The installation varies based on the system you are on
 - If python is installed run `pip install eel` or `pip3 install eel` based on which version of python and pip you have
     - In the examples I am using `python3`. Remove the `3` if it is uneeded for your system
-    - You can check pyhton verion by running `python -V` or `python3 -V`
+    - You can check python verion by running `python -V` or `python3 -V`
     - You can check pip version by running `pip -V` or `pip3 -V`
 
 ## For Development
