@@ -1,5 +1,7 @@
 # Python-eel react app template
 
+![Screenshot](./exampleScreenshot.png)
+
 ## Get Started
 
 - Clone the repository onto your system
@@ -28,7 +30,9 @@
 
 ## Convert the project to an executable
 
-- Open a terminal and run `python3 -m eel index.py build`
+- Open a terminal and run `pip3 install PyInstaller` if you do not already have it installed
+    - This will install PyInstaller
+- Next run `python3 -m eel index.py build`
     - This will take your production code inside of the build folder and convert it to a standalone executable file
 - The executable will be in `/dist/index`
     - Run the executable to view your program
